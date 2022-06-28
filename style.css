@@ -123,19 +123,36 @@ button {
 
 
 /* Large devices (laptops/desktops, 1440px and up) */
+
 @media screen and (max-width: 1440px) {
-    .body {
-        background: #b8007a;
 
+    main {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-flow: wrap;
+        align-items: center;
+        display: flex;
     }
-main{
-    width:100px
-}
 }
 
-@media  screen and (min-width: 375px) {
-    .body {
-        background: hsl(0, 100%, 10%);
+@media screen and (min-width: 375px) and (max-width: 800px) {
+    .parent {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-flow: wrap;
+        align-items: center;
     }
-
+}
+@media screen and (min-width: 0px){
+   .parent {
+      flex-direction: column;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-flow: wrap;
+        align-items: center;
+    }
 }
