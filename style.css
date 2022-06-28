@@ -126,6 +126,7 @@ button {
 
 @media screen and (max-width: 1440px) {
 
+<<<<<<< HEAD
     main {
         display: flex;
         width: 100%;
@@ -156,3 +157,10 @@ button {
         align-items: center;
     }
 }
+=======
+}
+
+@media  screen and (min-width: 375px) { 
+
+}
+>>>>>>> 3d72bba1557a5720a0a8a137d10d62e952442c24
