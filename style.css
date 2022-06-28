@@ -126,41 +126,8 @@ button {
 
 @media screen and (max-width: 1440px) {
 
-<<<<<<< HEAD
-    main {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        flex-flow: wrap;
-        align-items: center;
-        display: flex;
-    }
-}
-
-@media screen and (min-width: 375px) and (max-width: 800px) {
-    .parent {
-        flex-direction: column;
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        flex-flow: wrap;
-        align-items: center;
-    }
-}
-@media screen and (min-width: 0px){
-   .parent {
-      flex-direction: column;
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        flex-flow: wrap;
-        align-items: center;
-    }
-}
-=======
 }
 
 @media  screen and (min-width: 375px) { 
 
 }
->>>>>>> 3d72bba1557a5720a0a8a137d10d62e952442c24
