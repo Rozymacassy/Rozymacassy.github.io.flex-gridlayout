@@ -121,13 +121,24 @@ button {
 }
 
 
-
-/* Large devices (laptops/desktops, 1440px and up) */
-
 @media screen and (max-width: 1440px) {
-
+    main {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-flow: wrap;
+        align-items: center;
+        display: flex;
+    }
 }
 
-@media  screen and (min-width: 375px) { 
-
+@media screen and (min-width: 375px) {
+    .parent {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-flow: wrap;
+        align-items: center;
+    }
 }
